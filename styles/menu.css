@@ -1,0 +1,57 @@
+@import url(./colors.css);
+
+#menu-hamburger__open,
+#menu-hamburger__close {
+  cursor: pointer;
+}
+
+#menu-list {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background-color: var(--color-bg-menu);
+  background-image: url(../assets/bg-img-menu-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100px -8px;
+}
+
+#menu.active #menu-list {
+  display: block;
+}
+
+#menu.active #btn-mobile #menu-hamburger__open {
+  display: none;
+}
+nav {
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: 40px;
+}
+
+li:nth-child(1) {
+  margin-top: 90px;
+}
+
+li:last-child {
+  margin-bottom: 100px;
+}
+
+li a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-mobile-menu);
+}
+
+li a:hover {
+  color: var(--color-light);
+}
+
+#footer-manu-list > a > img {
+  margin-left: 30px;
+}
