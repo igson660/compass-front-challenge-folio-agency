@@ -1,5 +1,9 @@
 @import url(./colors.css);
 
+header {
+  max-height: 120px;
+}
+
 #menu-hamburger__open,
 #menu-hamburger__close {
   cursor: pointer;

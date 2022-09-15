@@ -1,0 +1,44 @@
+@import url(./colors.css);
+
+#body-home {
+  background-image: url(../assets/bg-home-pc.svg),
+    url(../assets/bg-home-line.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 75px 400px, 190px 5px;
+  background-size: 300px, 180px;
+}
+
+.main-home {
+  flex-direction: column;
+  align-items: initial;
+  padding: 10px 25px;
+}
+
+main > h1 {
+  color: var(--color-dark);
+  max-width: 70%;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 50px;
+  top: calc(50% - 168px / 2 - 54px);
+}
+
+main > p {
+  color: var(--color-text-body-light-mode);
+  margin-bottom: 40px;
+  max-width: 90%;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+}
+
+main > button {
+  color: var(--color-light);
+  background-color: var(--color-primary-background);
+  width: 160px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+}
