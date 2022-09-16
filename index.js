@@ -1,6 +1,7 @@
 const $ = document.querySelector.bind(document);
 
-const toggleMenu = () => {
+const toggleMenu = (e) => {
+  e.preventDefault();
   $("#menu").classList.toggle("active");
 };
 
