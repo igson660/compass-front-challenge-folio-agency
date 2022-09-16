@@ -1,0 +1,113 @@
+@import url(./colors.css);
+
+.body-service-page {
+  background-color: var(--linear-gradient);
+  background-image: url(../assets/bg-service-line.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 50px;
+}
+
+.header-service-page {
+  margin-bottom: -330px;
+}
+
+.service-page {
+  background-image: none;
+  background-color: var(--linear-gradient);
+}
+
+.service-page > div > p,
+.service-page > div > span {
+  color: var(--color-primary-background);
+}
+.service-page > h2 {
+  color: var(--color-dark);
+}
+
+.container-arrow {
+  padding: 0;
+  margin: 30px 10px;
+  width: 80px;
+}
+
+.section-card {
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 311px;
+  height: 198px;
+  background-color: var(--color-light);
+  color: var(--color-primary-background);
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 32px;
+  margin-bottom: 25px;
+}
+
+.card:hover {
+  color: var(--color-light);
+  background-color: var(--color-primary-background);
+}
+
+.card > img {
+  margin-right: 20px;
+}
+
+.section-Achievement {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+.section-Achievement > div {
+  display: flex;
+  align-self: initial;
+  margin-bottom: 50px;
+}
+
+.section-Achievement > div > span {
+  color: var(--color-text-body-dark-mode);
+  margin-right: 25px;
+}
+
+.section-Achievement > div > p {
+  color: var(--color-dark);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.section-Achievement > div > img {
+  margin-right: 5px;
+}
+
+.section-Achievement > .div-pagination {
+  align-self: center;
+}
+
+.section-Achievement > h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  max-width: 60%;
+  letter-spacing: -0.2px;
+  line-height: 32px;
+  margin-bottom: 30px;
+  color: var(--color-dark);
+}
+
+.section-Achievement > .number {
+  font-weight: 600;
+  font-size: 140px;
+  line-height: 167px;
+  color: var(--color-primary-background);
+}
+
+.section-Achievement > p {
+  color: var(--color-dark);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
