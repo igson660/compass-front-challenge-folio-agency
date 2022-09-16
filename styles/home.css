@@ -4,8 +4,8 @@
   background-image: url(../assets/bg-home-pc.svg),
     url(../assets/bg-home-line.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: 75px 400px, 190px 5px;
-  background-size: 300px, 180px;
+  background-position: 7px 350px, 160px 0px;
+  background-size: 350px, 200px;
 }
 
 .main-home {
@@ -34,11 +34,99 @@ main > p {
   line-height: 28px;
 }
 
-main > button {
+.button-home {
   color: var(--color-light);
   background-color: var(--color-primary-background);
   width: 160px;
   height: 56px;
   border: none;
+  font-weight: 600;
   border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+/* style sect who-we-are */
+#who-we-are {
+  align-items: initial;
+  flex-direction: column;
+  margin-top: 330px;
+  background-color: var(--color-bg-menu);
+  background-image: url(../assets/bg-section-home.svg);
+  background-repeat: no-repeat;
+  background-position: 5px 400px;
+  background-size: 350px;
+  padding-bottom: 0;
+}
+
+#who-we-are > div {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+#who-we-are > div > span,
+#who-we-are > div > p {
+  color: var(--text-deactive-2);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: initial;
+}
+
+#who-we-are > div > p {
+  color: var(--color-light);
+  margin-left: 20px;
+}
+
+#who-we-are > h2 {
+  color: var(--color-light);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+}
+
+#who-we-are > .controls {
+  padding: 0;
+  width: 250px;
+  justify-content: space-between;
+}
+
+#who-we-are > #div-controls {
+  margin-bottom: 450px;
+}
+
+.controls > span {
+  color: var(--color-light);
+  padding: 0;
+  margin-right: 30px;
+}
+
+.arrow:hover {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color-primary-background);
+}
+
+.arrow > img {
+  width: 25px;
+}
+
+#who-we-are > h3 {
+  color: var(--color-light);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  margin-bottom: 40px;
+}
+
+#who-we-are > p {
+  color: var(--color-text-body-dark-mode);
+  margin-bottom: 40px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 0.94rem;
+  line-height: 28px;
 }

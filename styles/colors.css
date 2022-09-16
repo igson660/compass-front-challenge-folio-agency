@@ -3,6 +3,8 @@
   --color-light: #ffffff;
   --color-mobile-menu: #595976;
   --color-text-body-light-mode: #606060;
+  --color-text-body-dark-mode: #8b8b8b;
   --color-dark: #232340;
-  --color-primary-background: #5468E7;
+  --color-primary-background: #5468e7;
+  --text-deactive-2: #adadad;
 }
